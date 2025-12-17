@@ -22,7 +22,7 @@ public class MenuManager : MonoBehaviour
     public void StartButtonClick()
     {
         GameManager.Instance.bestPlayerName = nameInput.text;
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
     }
 
     public void QuitButtonClick()
